@@ -1,0 +1,55 @@
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%====================
+% File:         resume.tex
+% Editor:       https://github.com/TimmyChan 
+%               https://www.linkedin.com/in/timmy-l-chan/
+% Last Updated: Jan 7th, 2022
+% Notes:        All formatting is done in TLCresume.sty
+%               No need to touch that file. 
+%               All actual content is in the sections/ folder.
+%====================
+
+\usepackage{TLCresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\def\name{Krzysztof Sazon}
+\def\phone{+48 882 058 631}
+\def\city{}
+\def\email{k@sazon.dev}
+\def\LinkedIn{ksazon} % linkedin.com/in/______
+\def\github{}
+\def\role{Data Engineer}
+
+\input{_header}
+\begin{document}
+
+\section{Professional Profile}
+\input{sections/objective}
+
+\section{Tools}
+\input{sections/tools}
+
+\section{Professional Experience}
+\input{sections/experience}
+
+\section{Education}
+\input{sections/education}
+
+\newpage
+
+\section{Language Proficiency}
+\input{sections/languages}
+
+\section{Professional Courses and Training}
+\input{sections/activities}
+
+\section{Personal Traits}
+\input{sections/skills}
+
+
+
+\end{document}
