@@ -12,12 +12,13 @@
 %====================
 
 \usepackage{TLCresume}
+\usepackage{ragged2e}
 
 %====================
 % CONTACT INFORMATION
 %====================
 \def\name{Krzysztof Sazon}
-\def\phone{+48 882 058 631}
+% \def\phone{+48 882 058 631}
 \def\city{}
 \def\email{k@sazon.dev}
 \def\LinkedIn{ksazon} % linkedin.com/in/______
@@ -26,11 +27,9 @@
 
 \input{_header}
 \begin{document}
-
-\section{Professional Profile}
 \input{sections/objective}
 
-\section{Tools}
+{\color{highlight}\vspace{-0.5em}\hrule\vspace{0.5em}}
 \input{sections/tools}
 
 \section{Professional Experience}
@@ -39,7 +38,7 @@
 \section{Education}
 \input{sections/education}
 
-\newpage
+% \newpage
 
 \section{Language Proficiency}
 \input{sections/languages}
@@ -47,9 +46,7 @@
 \section{Professional Courses and Training}
 \input{sections/activities}
 
-\section{Personal Traits}
-\input{sections/skills}
-
-
+% \section{Personal Traits}
+% \input{sections/skills}
 
 \end{document}
